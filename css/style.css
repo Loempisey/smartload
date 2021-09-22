@@ -1,6 +1,6 @@
 *{
     padding: 0px;
-<<<<<<< HEAD
+
     margin: 0px;
     box-sizing: border-box;
 }
@@ -94,7 +94,7 @@
 .footer .image{
     width: 40px;
     margin-left: 100px;
-=======
+
 }
 h2{
     font-family: 'Times New Roman', Times, serif;
@@ -108,5 +108,5 @@ h2{
 .left-side li{
     list-style-type: none;
     margin: 25px;
->>>>>>> 38026512ccffe9e54738a9338ad2ba262de3174d
+
 }
