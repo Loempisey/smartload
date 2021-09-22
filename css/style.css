@@ -2,3 +2,16 @@
     margin: 0px;
     padding: 0px;
 }
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+
+}
+.left-side {
+    margin: 20px;
+    
+}
+.left-side li{
+    list-style-type: none;
+    margin: 25px;
+}
