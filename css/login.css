@@ -1,9 +1,12 @@
-<<<<<<< HEAD
+
 *{
     padding: 0px;
-
     margin: 0px;
-    box-sizing: border-box;
+    box-sizing: border-box;   
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
 }
 .blank{
     background-color: rgb(110, 207, 110);
@@ -36,23 +39,22 @@
     cursor: pointer;
 }
 #button:hover{
-    text-decoration: underline;
+    /* text-decoration: underline; */
     color: black;
-    transition: 5s;
+    transition: 1s;
 }
 .body{
-    margin-top: 10%;
+    margin-top: 5%;
     margin-left: 50px;
 }
 .title{
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 .title p{
     color: gray;
 }
 .Email{
-    padding-bottom: 40px;
-    line-height: 1cm;  
+    padding-bottom: 30px;
 }
 #email{
     padding: 10px;
@@ -61,8 +63,7 @@
     width: 50%;
 }
 .Password{
-    padding-bottom: 20px;
-    line-height: 1cm;
+    padding-bottom: 10px;
 }
 #password{
     padding: 10px;
@@ -85,7 +86,6 @@
     cursor: pointer;
 }
 .footer{
-    margin-top: 40px;
     margin: 50px 0px 0px 50px;
     display: flex;
     align-items: center;
@@ -95,21 +95,10 @@
 .footer .image{
     width: 40px;
     margin-left: 100px;
+}
+.footer .image:hover{
+    cursor: pointer;
+}
 
-}
-h2{
-    font-family: 'Times New Roman', Times, serif;
-    margin: 20px;
 
-}
-.left-side {
-    margin: 20px;
-    
-}
-.left-side li{
-    list-style-type: none;
-    margin: 25px;
 
-}
-=======
->>>>>>> 4d1e402fac90f81d303a2a751f65e0535b5d04c3
