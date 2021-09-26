@@ -1,0 +1,64 @@
+h4{
+    padding-left: 20px;
+    margin-top: 9px;
+    padding-bottom: 30px;
+    color: whitesmoke;
+  }
+  p{
+      color: white;
+      padding-left: 20px;
+      margin-top: -38px;
+  }
+
+.container{
+    display: flex;
+    
+}
+  .box-1{
+      width: 150px;
+      height: 160px;
+      background-color: rgb(235, 216, 44);
+      margin: 25px 70px 40px 70px;
+      border-radius: 10px;
+      color: white;
+      
+      
+  }
+  .box-2{
+    width: 150px;
+    height: 160px;
+    background-color: rgb(235, 216, 44);
+    margin: 25px 70px 40px 70px;
+    border-radius: 10px;
+    color: white;
+  }
+  h5{
+      text-align: center;
+      margin-top: 56px;
+      font-weight: bold;
+  }
+  .history-box{
+    width: 510px;
+    height: 250px;
+    background-color: rgb(241, 245, 240);
+    margin: 25px 70px 40px 70px;
+    border-radius: 10px;
+    margin-top: -17px;
+    
+  }
+  h6{
+      padding-left: 38px;
+      bottom: 20px;
+      border: 1px solid;
+      width: 150px;
+      height: 30px;
+      border-radius: 15px;
+      padding-top: 1px;
+      font-weight: bold;
+      font-size: 20px 
+  }
+ 
+  
+ 
+ 
+
