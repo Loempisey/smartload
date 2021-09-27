@@ -1,24 +1,29 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
 h4{
     padding-left: 20px;
     margin-top: 9px;
-    padding-bottom: 30px;
     color: whitesmoke;
   }
   p{
       color: white;
       padding-left: 20px;
-      margin-top: -38px;
   }
 
 .container{
+  position: absolute;
     display: flex;
+    padding: 5px;
     
 }
   .box-1{
       width: 150px;
       height: 160px;
       background-color: rgb(235, 216, 44);
-      margin: 25px 70px 40px 70px;
+      margin: 8px 0px 0px 105px;
       border-radius: 10px;
       color: white;
       
@@ -28,7 +33,7 @@ h4{
     width: 150px;
     height: 160px;
     background-color: rgb(235, 216, 44);
-    margin: 25px 70px 40px 70px;
+    margin: 8px 0px 0px 100px;
     border-radius: 10px;
     color: white;
   }
@@ -38,25 +43,26 @@ h4{
       font-weight: bold;
   }
   .history-box{
-    width: 510px;
-    height: 250px;
-    background-color: rgb(241, 245, 240);
-    margin: 25px 70px 40px 70px;
+    width: 500px;
+    height: 240px;
+    position: absolute;
+    background-color: rgb(233, 241, 231);
+    margin: 186px 0px 0px 65px;
     border-radius: 10px;
-    margin-top: -17px;
     
   }
-  h6{
-      padding-left: 38px;
-      bottom: 20px;
-      border: 1px solid;
-      width: 150px;
-      height: 30px;
-      border-radius: 15px;
-      padding-top: 1px;
-      font-weight: bold;
-      font-size: 20px 
+  .history-box h6{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 150px;
+    height: 30px;
+    padding-left: 40px;
+    padding-top: 3px;
+    border-radius: 25px;
+    border: 1px solid black;
   }
+ 
  
   
  

@@ -51,7 +51,7 @@ body{
     border: 1px solid rgb(69, 146, 69);
     border-radius: 10px;
     padding: 8px;
-    padding-left: 230px;
+    width: 86%;
     box-shadow: 1px 3px rgba(78, 74, 74, 0.486) ;
 }
 .Password{
@@ -63,7 +63,7 @@ body{
     border: 1px solid rgb(69, 146, 69);
     border-radius: 10px;
     padding: 8px;
-    padding-left: 230px;
+    width: 86%;
     box-shadow: 1px 3px rgba(78, 74, 74, 0.486) ;
 }
 .Check{

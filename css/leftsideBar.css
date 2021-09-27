@@ -87,11 +87,18 @@ a:link {
     background-color:  rgb(80, 200, 120);;
     width: 135px;
     border-radius: 5px;
+    
+  }
+  a li{
+    padding: 4px 0px 0px 10px;
   }
   .logout {
     position: absolute;
     padding-left: 28px;
 
+  }
+  #logout{
+    padding: 4px 0px 0px 10px;
   }
 
   .border-inside {
@@ -101,9 +108,9 @@ a:link {
     background-color: rgb(80, 200, 120);
     left: 257px;
     bottom: 42px;
-    border-radius: 15px;
-    
+    border-radius: 15px; 
   }
+  
 
   
   
