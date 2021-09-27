@@ -5,7 +5,7 @@
     
   }
   body{
-      background: rgb(158, 158, 144);;
+      background: rgb(204, 204, 255);;
   }
   
 
@@ -19,7 +19,7 @@
     background-color: white
   }
 
-  h3 {
+  .frist-border h3 {
     margin: 30px;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 20px;
@@ -28,12 +28,12 @@
 
   }
 
-  .list,ul {
+  .list ul {
     list-style-type: none;
     padding-left: 10px;
   }
 
-  .list,ul,li {
+  .list ul li {
     width: 200px;
     height: 35px;
     margin: 10px;
@@ -50,28 +50,30 @@
     margin-left: 5px;
     color: black;
     font-family: 'Roboto Condensed', sans-serif;
+    
+    
   }
 
  /* unvisited link */
-a:link {
+ .list ul li a:link {
     color: black;
     text-decoration: none;
   }
   
   /* visited link */
-  a:visited {
+  .list ul li a:visited {
     color: black;
     text-decoration: none;
   }
   
   /* mouse over link */
-  a:hover {
+  .list ul li a:hover {
     color: black;
     text-decoration: none;
   }
   
   /* selected link */
-  a:active {
+  .list ul li a:active {
     color: black;
     text-decoration: none;
   }
@@ -87,6 +89,7 @@ a:link {
     background-color:  rgb(80, 200, 120);;
     width: 135px;
     border-radius: 5px;
+    align-items: center;
   }
   .logout {
     position: absolute;
@@ -103,6 +106,17 @@ a:link {
     bottom: 42px;
     border-radius: 15px;
     
+  }
+  .right-side{
+    position: absolute;
+    width: 25%;
+    height: 84%;
+    background-color: rgb(159, 226, 191);
+    left: 952px;
+    bottom: 42px;
+    border-radius: 15px;
+    
+
   }
 
   
