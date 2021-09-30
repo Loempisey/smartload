@@ -1,0 +1,231 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box ;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color:rgb(236, 228, 228); 
+
+}
+.title #one{
+    padding-top: 30px;
+    margin-left: 40px;
+}
+.chat-box1{
+    position: relative;
+    width: 250px;
+    height: 100px;
+    background-color: white;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 0px #50C878;
+}
+.chat-box1 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.chat-box1 #name1{
+    position: absolute;
+    left: 104px;
+    bottom: 41px;
+}
+.chat-box2{
+    position: relative;
+    width: 250px;
+    height: 100px;
+    background-color: white;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 0px #50C878;
+}
+.chat-box2 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.chat-box2 #name2{
+    position: absolute;
+    left: 104px;
+    bottom: 41px;
+}
+.chat-box3{
+    position: relative;
+    width: 250px;
+    height: 100px;
+    background-color: white;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 0px #50C878;
+}
+.chat-box3 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.chat-box3 #name3{
+    position: absolute;
+    left: 104px;
+    bottom: 41px;
+}
+.chat-box4{
+    position: relative;
+    width: 250px;
+    height: 100px;
+    background-color: white;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 0px #50C878;
+}
+.chat-box4 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.chat-box4 #name4{
+    position: absolute;
+    left: 104px;
+    bottom: 41px;
+}
+.chat-box5{
+    position: relative;
+    width: 250px;
+    height: 100px;
+    background-color: white;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 0px #50C878;
+}
+.chat-box5 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.chat-box5 #name5{
+    position: absolute;
+    left: 104px;
+    bottom: 41px;
+}
+.chat-box6{
+    position: relative;
+    width: 250px;
+    height: 100px;
+    background-color: white;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 0px #50C878;
+}
+.chat-box6 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.chat-box6 #name6{
+    position: absolute;
+    left: 104px;
+    bottom: 41px;
+}
+
+.colume1{
+    display: inline-flex;
+    margin: -11px;
+    margin-left: 8px;
+   
+}
+.colume2{
+    display: inline-flex;
+    margin: -23px;
+    margin-left: 7px;}
+.chat-box7{
+    position: relative;
+    width: 250px;
+    height: 100px;
+    background-color: white;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 0px #50C878;
+}
+.chat-box7 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.chat-box7 #name7{
+    position: absolute;
+    left: 104px;
+    bottom: 41px;
+}
+.chat-box8{
+    position: relative;
+    width: 250px;
+    height: 100px;
+    background-color: white;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 0px #50C878;
+}
+.chat-box8 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.chat-box8 #name8{
+    position: absolute;
+    left: 104px;
+    bottom: 41px;
+}
+.chat-box9{
+    position: relative;
+    width: 250px;
+    height: 100px;
+    background-color: white;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 0px #50C878;
+}
+.chat-box9 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.chat-box9 #name9{
+    position: absolute;
+    left: 104px;
+    bottom: 41px;
+}
+.colume3{
+    display: inline-flex;
+    margin-left: 30px;
+    margin: -10px 0px 10px 5px;
+
+}
+.chat-box{
+    position: relative;
+    width: 400px;
+    height: 80vh;
+    background-color: white;
+    margin-left: 940px;
+    margin-top: -395px;
+    border-radius: 10px;
+}
+
+
