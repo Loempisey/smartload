@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Account</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+         * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Source Sans Pro', sans-serif;
+            font-weight: bold;
+            background-color: rgb(180, 182, 180);
+        }
+
+        .box {
+            background-color: rgb(249, 250, 248);
+            border-radius: 20px;
+            margin: 150px 0px 0px 400px;
+            padding: 10px 0px 0px 0px;
+            border: 1px solid black;
+            width: 30%;
+            height: 50vh;
+            line-height: 1cm;
+            
+        }
+        #title{
+            text-align: center;
+            margin-top: 25px;
+        }
+        .Email{
+            margin: 20px 0px 0px 40px;
+        }
+        #email{
+            width: 300px;
+            padding: 10px 0px 10px 10px;
+            border-radius: 10px;
+            border: 1px solid black;
+        }
+        .Password{
+            margin: 20px 0px 0px 40px;
+        }
+        #password{
+            width: 300px;
+            padding: 10px 0px 10px 10px;
+            border-radius: 10px;
+            border: 1px solid black;
+        }
+        a:link{
+            text-decoration: none;
+        }
+        #link{
+            margin: 0px 0px 0px 40px;
+        }
+        .button{
+            margin: 0px 0px 0px 150px;
+        }
+        .button button{
+            width: 100px;
+            height: 40px;
+            border-radius: 15px;
+            border-style: none;
+            margin-top: 10px;
+            color: white;
+            background-color: rgb(42, 167, 42);
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1 id="title">Add New Account</h1>
+        <div class="Email">
+            <input type="text" name="email" id="email" placeholder="Phone number or Email">
+        </div>
+        <div class="Password">
+            <input type="password" name="password" id="password" placeholder=" Password">
+        </div>
+        <a id="link" href="#">forgot Password?</a>
+        <div class="button">
+            <button>Login</button>
+        </div>
+        
+       
+    </div>
+</body>
+</html>
