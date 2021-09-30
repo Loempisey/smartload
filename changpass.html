@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Password</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Source Sans Pro', sans-serif;
+            font-weight: bold;
+            background-color: rgb(180, 182, 180);
+        }
+
+        .box {
+            background-color: rgb(249, 250, 248);
+            border-radius: 20px;
+            margin: 150px 0px 0px 400px;
+            padding: 10px 0px 0px 0px;
+            border: 1px solid black;
+            width: 40%;
+            height: 50vh;
+            line-height: 1cm;
+            
+        }
+        .icon{
+            position: absolute;
+            margin-left: 460px;
+            font-size: 30px;
+    
+        }
+        #title{
+            text-align: center;
+            margin-top: 25px;
+        }
+        label{
+            margin-left: 60px;
+        }
+        #currentpassword{
+            height: 30px;
+            margin-top: 25px;
+            margin-left: 35px;
+            border-radius: 10px;
+            border:1px solid black;
+            padding-left: 30px;
+        }
+        #newpassword{
+            height: 30px;
+            margin-top: 25px;
+            margin-left: 57px;
+            border-radius: 10px;
+            border:1px solid black;
+            padding-left: 30px;
+        }
+        #confirmpassword{
+            height: 30px;
+            margin-top: 25px;
+            margin-left: 30px;
+            border-radius: 10px;
+            border:1px solid black;
+            padding-left: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <span class="material-icons icon">
+            check_circle
+            </span>
+        <h1 id="title">Change Password</h1>
+        <div class="Current">
+            <label for="">Current Password</label>
+            <input type="password" name="currentpassword" id="currentpassword" placeholder="your current password">
+        </div>
+        <div class="New">
+            <label for="">New Password</label>
+            <input type="password" name="newpassword" id="newpassword" placeholder="your new password">
+        </div>
+        <div class="Confirm">
+            <label for="">Confirm Password</label>
+            <input type="password" name="confirmpassword" id="confirmpassword" placeholder="confirm password">
+        </div>
+       
+    </div>
+</body>
+</html>
