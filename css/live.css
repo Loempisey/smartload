@@ -447,13 +447,13 @@ h2{
     color: green;
     margin-left: 307px;
     list-style: none;
-    top: 60px;
+    top: 65px;
 }
 .icon-2 ul .remove{
     position: absolute;
     color: green;
     left: 629px;
-    top: 58px;
+    top: 65px;
     list-style: none;
 }
 .icon-3 ul .remove{
@@ -461,14 +461,14 @@ h2{
     color: green;
     list-style: none;
     left: 948px ;
-    top: 58px;
+    top: 65px;
 }
 .icon-4 ul .remove{
     position: absolute;
     color: green;
     list-style: none;
-    right: 58px;
-    top: 58px;
+    right: 70px;
+    top: 65px;
 }
 
 
