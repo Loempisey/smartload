@@ -218,14 +218,160 @@ body{
     margin: -10px 0px 10px 5px;
 
 }
+.chat-box10{
+    position: relative;
+    width: 250px;
+    height: 100px;
+    background-color: white;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 0px #50C878;
+}
+.chat-box10 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.chat-box10 #name10{
+    position: absolute;
+    left: 104px;
+    bottom: 41px;
+}
+.chat-box11{
+    position: relative;
+    width: 250px;
+    height: 100px;
+    background-color: white;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 0px #50C878;
+}
+.chat-box11 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.chat-box11 #name11{
+    position: absolute;
+    left: 104px;
+    bottom: 41px;
+}
+.chat-box12{
+    position: relative;
+    width: 250px;
+    height: 100px;
+    background-color: white;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 0px #50C878;
+}
+.chat-box12 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.chat-box12 #name12{
+    position: absolute;
+    left: 104px;
+    bottom: 41px;
+}
+.colume4{
+    display: inline-flex;
+    margin: 127px;
+    margin-left: -930px;
+}
+
 .chat-box{
     position: relative;
     width: 400px;
     height: 80vh;
     background-color: white;
-    margin-left: 940px;
-    margin-top: -395px;
+    margin-left: 933px;
+    margin-top: -649px;
     border-radius: 10px;
 }
+.chat-box img{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin-left: 35px;
+    margin-top:10px ;
 
+}
+.chat-box p{
+    position: absolute;
+    font-size: 18px;
+    font-weight: bold;
+    top: 40px;
+    left: 135px;
+}
+.small-pic img{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    left: 954px;
+    top: 190px;
 
+}
+.chat{
+    position: absolute;
+    width: 150px;
+    height: 26px;
+    border: 1px solid;
+    left: 999px;
+    top: 217px;
+    border-radius: 20px;
+
+}
+ #chat-pic{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 320px;
+    top: 300px;
+}
+.chat1{
+    position: absolute;
+    width: 150px;
+    height: 26px;
+    border: 1px solid;
+    left: 1120px;
+    top: 326px;
+    border-radius: 20px;
+}
+.type-message{
+    position: absolute;
+    width: 325px;
+    height: 30px;
+    border-radius: 15px;
+    top: 550px;
+    border: 1px solid;
+    left: 971px;
+}
+.icon ul li{
+    position: absolute;
+    left: 982px;
+    list-style: none;
+    top: 553px;
+}
+.icon ul .add{
+    position: absolute;
+    left: 1222px;
+    list-style: none;
+    top: 553px;
+}
+.icon ul .send{
+    position: absolute;
+    left: 1262px;
+    list-style: none;
+    top: 553px;
+}
