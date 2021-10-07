@@ -22,11 +22,39 @@
     </div>
     <div class="colume1">
         <div class="chat-box1">
-            <img src="./../assets/person-girl-flat.png" alt="">
+            <img src="./../assets/person-girl-flat.png" alt="profile">
             <span id="name1">Khoeurn Kimleng</span>
             
         </div>
-        <div class="chat-box2">
+    </div>
+
+    <script>
+        var chat =[
+            {
+                image: "./../assets/person-girl-flat.png",
+                message : "Khoeurn Kimleng",
+            },
+            {
+                image: "./../assets/person-girl-flat.png",
+                message : "Kao Kanhchana",
+            },
+
+
+        ];
+        chat.map((item, index) =>{
+            console.log(item)
+            document.getElementsByClassName('colume1')[0].innerHTML = document.getElementsByClassName('colume1')[0].innerHTML 
+            + `
+            <div class="chat-box1">
+            <img src="./../assets/person-girl-flat.png" alt="profile">
+            <span id="name1">${item.message}</span>
+            
+        </div>
+            `
+        });
+    </script>
+
+        <!-- <div class="chat-box2">
             <img src="./../assets/person-girl-flat.png" alt="">
             <span id="name2">Khoeurn Kimleng</span>
             
@@ -121,8 +149,7 @@
                         
                 </li>
             </ul>
-        </div>
+        </div> -->
 
-    </div>
 </body>
 </html>

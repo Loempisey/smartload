@@ -41,14 +41,14 @@
             </span>Page's Name
           </li>
         </a>
-        <a href="notification.html">
+        <a href="http://127.0.0.1:5500/notification.html">
           <li>
             <span class="material-icons">
               notifications
             </span>Notification
           </li>
         </a>
-        <a href="contactUs.html">
+        <a href="http://127.0.0.1:5500/contact.html">
           <li>
             <span class="material-icons">
               groups
@@ -56,7 +56,7 @@
             Contact Us
           </li>
         </a>
-        <a href="setting.html">
+        <a href="http://127.0.0.1:5500/setting.html#">
           <li>
             <span class="material-icons">
               settings
@@ -78,45 +78,61 @@
     <p>Good Morning</p>
     <div class="container">
       <div class="box-1">
-        <h5>Live</h5>
+        <a href="./../html/live.html">
+          <h5>Live</h5>
+        </a>
       </div>
       <div class="box-2">
-        <h5>Messenger</h5>
+        <a href="./../html/chat.html">
+          <h5>Messenger</h5>
+        </a>
       </div>
     </div>
-    <div class="history-box">
-      <h6>History</h6>
-      <div class="detail">
-        <div class="detail-1">
-          <div class="detail-2">
-          </div>
+    <div class="history">
+
+    </div>
+    <script>
+      var histories =[
+        {
+          image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Circle-icons-profile.svg/1200px-Circle-icons-profile.svg.png",
+          description: "You lived on Facebook.",
+          date: "10/09/2021",
+          
+        },
+        {
+          image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Circle-icons-profile.svg/1200px-Circle-icons-profile.svg.png",
+          description: "You lived on Facebook.",
+          date: "10/09/2021",
+          
+        },
+      ];
+      histories.map((item, index) => {
+        console.log(item)
+        document.getElementsByClassName('history')[0].innerHTML 
+        = document.getElementsByClassName('history')[0].innerHTML + `
+        <div class="history-item">
+        <div class="images">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Circle-icons-profile.svg/1200px-Circle-icons-profile.svg.png"
+            alt="profile">
+        </div>
+        <div class="description">
+          <h5>You lived on Facebook.</h5>
+          <h5>10/09/2021</h5>
+       
         </div>
       </div>
-      <div class="phrase">
-        <p>You lived on Facebook.</p>
-        <p id="date">09/10/2021</p>
-        <p id="time">7:30PM</p>
-
-      </div>
-      <div class="phrase-1">
-        <p>You lived on Facebook.</p>
-        <p id="date-1">09/10/2021</p>
-        <p id="time-1">5:00PM</p>
-      </div>
-      <div class="phrase-2">
-        <p>You lived on Facebook.</p>
-        <p id="date-2">20/09/2021</p>
-        <p id="time-2">10:35AM</p>
-      </div>
-    </div>
-  </div>
-  <div class="profile">
+              `
+      });
+      
+    </script>
+    <!-- <div class="profile">
     <p id="in-pro">Username</p>
   </div>
-  <p id="view-pro">View Your Profile</p>
+  <p id="view-pro">View Your Profile</p> -->
 
 
-  <div class="right-side">
+   <!-- <div class="right-side">
     <div id="caleandar">
     </div>
     <div class="schedual">
@@ -128,9 +144,9 @@
       </div>
     </div>
 
-  </div>
-  <script type="text/javascript" src="../caleandar/js/caleandar.js"></script>
-  <script type="text/javascript" src="../caleandar/js/demo.js"></script>
+  </div> --> 
+    <script type="text/javascript" src="../caleandar/js/caleandar.js"></script>
+    <script type="text/javascript" src="../caleandar/js/demo.js"></script> -->
 
 </body>
 

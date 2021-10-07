@@ -32,10 +32,14 @@
     border-radius: 10px;
     color: white;
   }
-  .box-1 h5, .box-2 h5{
+ .box-1 a h5, .box-2 a h5{
       text-align: center;
       margin-top: 56px;
       font-weight: bold;
+      color: white;
+      text-decoration: none;
+      
+      
   }
   .history-box{
     width: 510px;
@@ -87,63 +91,6 @@
 
  }
 
- .phrase p{
-   position: absolute;
-   color: black;
-   font-size: 15px;
-   font-weight: bold;
-   margin: 2px;
-   left: 134px;
-
- }
- .phrase-1 p{
-  position: absolute;
-  color: black;
-  font-size: 15px;
-  font-weight: bold;
-  margin: 76px;
-  left: 60px;
-
-}
-.phrase-2 p{
-  position: absolute;
-  color: black;
-  font-size: 15px;
-  font-weight: bold;
-  margin: 143px;
-  left: -7px;
-
-}
-.phrase, #date{
-  color: rgb(150, 146, 146);
-  margin-left: 4px;
-  top: 346px;
-}
-.phrase-1, #date-1{
-  color: rgb(150, 146, 146);
-  margin-left: 76px;
-  top: 345px;
-}
-.phrase-2, #date-2{
-  color: rgb(150, 146, 146);
-  margin-left: 143px;
-  top: 347px;
-}
-.phrase, #time{
-  color: grey;
-  left: 500px;
-  bottom: 190px;
-}
-.phrase-1, #time-1{
-  color: grey;
-  left: 428px;
-  bottom: 43px;
-}
-.phrase-2, #time-2{
-  color: grey;
-  left: 357px;
-  bottom: -100px;
-}
 .right-side{
   position: absolute;
   width: 10%;
@@ -190,6 +137,42 @@
   border-radius: 10px;
   margin-top: 20px;
 }
+
+.history {
+  margin: 50px;
+ }
+ .history-item {
+  margin-top: 25px;
+  background-color: #eee;
+  width: 100%;
+  height: 80px;
+  border-radius: 15px;
+}
+
+.images {
+  width: 20%;
+  height: inherit;
+  float: left;
+  /* background-color: green; */
+}
+.images img {
+  display: block;
+  width: 60px;
+  margin: 0 auto;
+  margin-top: 12px;
+}
+.description {
+  width: 80%;
+  height:inherit;
+  float: left;
+}
+
+.description h5{
+    margin-top: 12px;
+}
+
+
+
 
 
 

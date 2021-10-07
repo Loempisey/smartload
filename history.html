@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+      .history {
+       margin: 50px;
+       
+
+      }
+      .history-item {
+          margin-top: 25px;
+        background-color: #eee;
+        width: 100%;
+        height: 80px;
+        border-radius: 15px;
+      }
+      .images {
+        width: 20%;
+        height: inherit;
+        float: left;
+        /* background-color: green; */
+      }
+      .images img {
+        display: block;
+        width: 60px;
+        margin: 0 auto;
+        margin-top: 12px;
+      }
+      .title {
+        width: 80%;
+        height:inherit;
+        float: left;
+      }
+     
+      .title h3{
+          margin-top: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="history">
+     
+    </div>
+
+    <script>
+        var histories = [
+          {
+            image:
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Circle-icons-profile.svg/1200px-Circle-icons-profile.svg.png",
+            title: "You live on Facebook",
+            date: "10/09/2021",
+            time: "11:30am",
+          },
+          {
+            image:
+              "https://c8.alamy.com/comp/P9MYWR/man-avatar-profile-P9MYWR.jpg",
+            title: "You live on Facebook",
+            date: "10/09/2020",
+            time: "12:30am",
+          },
+          {
+            image:
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Circle-icons-profile.svg/1200px-Circle-icons-profile.svg.png",
+            title: "You live on Facebook",
+            date: "10/09/2021",
+            time: "1:30am",
+          },
+          {
+            image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Circle-icons-profile.svg/1200px-Circle-icons-profile.svg.png",
+            title: "You live on Facebook",
+            date: "10/09/2019",
+            time: "9:30am",
+          },
+        ];
+  
+        histories.map((item, index) => {
+            console.log(item)
+          document.getElementsByClassName('history')[0].innerHTML=document.getElementsByClassName('history')[0].innerHTML+`
+          <div class="history-item">
+        <div class="images">
+          <img
+            src=${item.image}
+            alt="profile"
+          />
+        </div>
+        <div class="title">
+          <h3>You live on Facebook</h3>
+          <h5>${item.date}</h5>
+          <p>${item.time}</p>
+        </div>
+      </div>
+          `
+        });
+        </script>
+  </body>
+</html>
