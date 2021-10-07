@@ -5,95 +5,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Setting</title>
+    <link rel="stylesheet" href="../css/setting.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link rel="stylesheet" href="./../css/leftsideBar.css">
-    <link rel="stylesheet" href="./../css/dashboard.css">
-
-    <title>Document</title>
-    <style>
-
-    </style>
 </head>
 
 <body>
-    <div class="frist-border">
-        <h3>Smart Load</h3>
-        <div class="list">
-            <ul>
-                <a href="dashboard.html">
-                    <li >
-                        <span class="material-icons">
-                            space_dashboard
-                        </span>
-                        Dashboard
-                    </li>
-                </a>
-                <a href="pagename.html">
-                <li>
-                    <span class="material-icons">
-                        flag
-                    </span>Page's Name
-                </li>
-                </a>
-                <a href="notification.html">
-                <li>
-                    <span class="material-icons">
-                        notifications
-                    </span>Notification
-                </li>
-                </a>
-                <a href="contactUs.html">
-                    <li>
-                        <span class="material-icons">
-                            groups
-                        </span>
-                        Contact Us
-                    </li>
-                </a>
-                <a href="setting.html">
-                    <li class="active">
-                        <span class="material-icons">
-                            settings
-                        </span>
-                        Setting
-                    </li>
-                </a>
-                <li>
-                    <span class="material-icons">
-                      logout
-                      </span><a href="#">Log Out</a>
-                  </li>
-          
-            </ul>
+    <div class="box">
+        <div class="header">
+            <h1 id="title">Setting</h1>
+            <img src="../assets/pf.jpg" alt="girl" class="image">
+        </div>
+
+        <div class="body">
+            <div class="add">
+                <span class="material-icons icon">
+                    person_add
+                    </span>
+                <span><a href="./addnewacc.html">Add Account</a></span>
+            </div>
+            
+            <div class="name">
+                <span class="material-icons icon">
+                    badge
+                </span>
+                <span><a href="./username.html">Change name</a></span>
+            </div>
+            <div class="notificat">
+                <span class="material-icons icon">
+                    notifications
+                </span>
+                <span><a href="#">Notification</a></span>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <div class="language">
+                <span class="material-icons icon">
+                    language
+                </span>
+                <span><a href="#">Languages</a></span>
+                <select id="select" >
+                    <option value="cam">Khmer</option>
+                    <option value="">English</option>
+                    <option value="thai">Thai</option>
+                    <option value="veit">Veitnam</option>
+                </select><br><br>
+            </div>
+            <div class="password">
+                <span class="material-icons icon">
+                    lock
+                </span>
+                <span><a href="./changpass.html">Change Password</a></span>
+            </div>
         </div>
     </div>
-    <div class="border-inside">
-        <h4>Hello Page's Name</h4>
-        <p>Good Morning</p>
-        <div class="container">
-            <div class="box-1">
-              <h5>Live</h5>
-            </div>
-            <div class="box-2">
-              <h5>Messenger</h5>
-            </div>
-          </div>
-          <div class="history-box">
-            <h6>History</h6>
-      
-          </div>
-      
-      
-      </div>
-    
-    </div>
-
-
-
 </body>
 
 </html>
