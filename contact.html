@@ -34,7 +34,15 @@
         <div class="comment">
             <textarea name="textarea" id="textarea" cols="62" rows="13" placeholder="Type your message here......"></textarea>
         </div>
-        <button id="button" name="button"><a href="#">Send</a></button>
+        <a href="./html/dashboard.html">
+            <button id="button" name="button" onclick="send()">Send</a></button>
+        </a>
+        <script>
+            function send(){
+                alert("Sent Successful!")
+            }
+        </script>
+
     </div>
     <div class="contact_info">
         <h1 id="title1">Contact Information</h1>
