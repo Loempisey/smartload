@@ -9,7 +9,7 @@ body{
     font-weight: bold;
 }
 .blank{
-    background-color: rgb(110, 207, 110);
+    background-color: #EEE8AA;
     width: 40%;  
     float: left;
     height: 100vh;
@@ -33,7 +33,7 @@ body{
     border-radius: 15px;
     color: white;
     border-style: none;
-    background-color: rgb(110, 207, 110);
+    background-color: #EEE8AA;
     padding: 8px 20px 8px 20px;
     margin-left: 10px;
     cursor: pointer;
@@ -79,8 +79,8 @@ body{
 #login{
     border-radius: 20px;
     color: black;
-    border: 1px inset rgb(147, 250, 169) ;
-    background-color: rgb(110, 207, 110);
+    border: 0px inset #EEE8AA;
+    background-color: #EEE8AA;
     padding: 15px 40px 15px 40px;
     margin-left: 37%;
     cursor: pointer;

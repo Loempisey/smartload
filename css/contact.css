@@ -82,7 +82,7 @@ body{
     border: 0px inset black;
     box-shadow: 2px 3px rgba(128, 128, 128, 0.842);
     color: whitesmoke;
-    background-color: rgb(82, 168, 82);
+    background-color: #EEE8AA;
     cursor: pointer;
 }
 a:link{
